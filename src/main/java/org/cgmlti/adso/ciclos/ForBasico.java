@@ -27,5 +27,17 @@ public class ForBasico {
             System.out.println(contador);
         }
 
+        int contador;
+        // variable acumuladora:
+        // nombre significativo
+        // recomendacion que sea 0
+        int total = 0;
+        for (contador = 0; contador <= 10; contador++) {
+            // instrucciones de acumulacion
+            // no se utilia la variable de control
+            total += contador;
+            System.out.println(contador);
+        }
+        System.out.println(total);
     }
 }

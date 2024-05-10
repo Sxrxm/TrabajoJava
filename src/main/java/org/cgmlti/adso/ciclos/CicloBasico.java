@@ -32,14 +32,14 @@ public class CicloBasico {
         int contador2 = 7;
         while (contador2 <= 77) {
             System.out.println(contador2);
-            contador2 = contador2 + 7;
+            contador2 += 7;
 
         }
 
         int contador3 = 20;
         while (contador3 >= 2) {
             System.out.println(contador3);
-            contador3 = contador3 - 2;
+            contador3 -= 2;
 
         }
         int contador4 = 2;
@@ -54,6 +54,19 @@ public class CicloBasico {
             contador5 = contador5 - 11;
 
         }
-    }
 
+        int contador6 = 0;
+        // variable acumuladora:
+        // nombre significativo
+        // recomendacion que sea 0
+        int total = 0;
+        while (contador6 <= 10) {
+            // instrucciones de acumulacion
+            // no se utilia la variable de control
+            total += contador6;
+            System.out.println(contador6);
+            contador6++;
+        }
+        System.out.println(total);
+    }
 }
